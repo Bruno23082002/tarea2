@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Contenido Principal */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tabla de Empleados */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Galería de Imágenes */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.employee {
+    text-align: center;
+    margin: 10px;
+}
+
+.employee img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+/* Botones */
+.button-group {
+    text-align: center;
+    margin: 20px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 0.9em;
+}
